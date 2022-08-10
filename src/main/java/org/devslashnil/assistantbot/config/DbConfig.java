@@ -92,7 +92,7 @@ public class DbConfig {
         int bulkSize;
 
         /**
-         * All-args constructor for {@link SpringDataJdbcProperies#toString()} (logging)
+         * All-args constructor for {@link SpringDataJdbcProperties#toString()} (logging)
          *
          * @param url JDBC driver class name property
          * @param driver JDBC driver class name property
@@ -101,7 +101,7 @@ public class DbConfig {
          * @param poolSize Hikari / Verica maxPoolSize property
          * @param bulkSize bulk insert size
          */
-        public SpringDataJdbcProperies(
+        public SpringDataJdbcProperties(
                 String url, String driver,String username, String password, String poolSize, int bulkSize) {
             this.url = url;
             this.driver = driver;
